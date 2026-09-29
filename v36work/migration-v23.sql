@@ -1,0 +1,1 @@
+ALTER TABLE properties ADD COLUMN highlight TEXT NOT NULL DEFAULT '';

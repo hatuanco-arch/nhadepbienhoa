@@ -1,0 +1,1 @@
+ALTER TABLE properties ADD COLUMN price_text TEXT NOT NULL DEFAULT '';

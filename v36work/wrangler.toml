@@ -1,0 +1,22 @@
+name = "nhadepbienhoa-app"
+main = "src/index.js"
+compatibility_date = "2026-09-20"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nhadepbienhoa"
+# Điền database_id hiện tại của D1 tại đây
+database_id = "6ea3e594-1d6e-4f83-ae5e-2ab6a787bcc1"
+
+[vars]
+# ADMIN_KEY nên tiếp tục được lưu bằng Secret trong Cloudflare, không ghi giá trị thật vào file.
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "nhadepbienhoa-images"
+
+[images]
+binding = "IMAGE_OPTIMIZER"
+
+[cache]
+enabled = true
